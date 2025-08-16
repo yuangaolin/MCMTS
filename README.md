@@ -6,8 +6,9 @@ The MCMTSYN method mainly involves three key points. The first point is to integ
 
 * python=3.7 or higher 
 *  pytorch=1.8.1 or higher
-*  sklearn=1.0.2 or higher
-*  pandas=1.3.5 or higher
+*  numpy
+*  sklearn
+*  pandas
 
 ## Running the Code
 
@@ -15,12 +16,6 @@ The MCMTSYN method mainly involves three key points. The first point is to integ
 
 * MCMTSYNtrain.py used to train the model.
 
-## Source code of the comparative methods
+## Run time
 
-PRODeepSyn: https://github.com/TOJSSE-iData/PRODeepSyn
-
-TranSynergy: https://github.com/qiaoliuhub/drug_combination
-
-AuDnnSynergy: The authors did not provide the source code.
-
-DeepSynergy: https://github.com/KristinaPreuer/DeepSynergy
+The run time on the device (CPU: AMD EPYC 7642 48-Core Processor, GPU NVIDIA Geforce RTX 3090 Ti, ARM 64G) is about 1d6h.
